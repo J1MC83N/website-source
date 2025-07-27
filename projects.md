@@ -1,6 +1,7 @@
 +++
 title = "Coding Projects"
 hascode = false
+isarticle = false
 +++
 
 # Coding Projects
@@ -16,4 +17,3 @@ hascode = false
 \hyperheader{h2}{projects/dithering}
 
 {{preview projects/dithering}}
-

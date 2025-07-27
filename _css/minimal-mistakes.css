@@ -921,6 +921,7 @@ figure .fluid-width-video-wrapper {
   margin-bottom: 1em;
 }
 
+
 figure img {
   width: 100%;
   border-radius: 4px;
@@ -3576,6 +3577,12 @@ a.reversefootnote:hover {
   overflow: hidden;
   max-width: 100%;
 }
+
+/* object.email {
+	height: 2em;
+	margin: -1em 0;
+	vertical-align: middle;
+} */
 
 .responsive-video-container iframe,
 .responsive-video-container object,

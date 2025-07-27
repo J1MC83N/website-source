@@ -1,5 +1,6 @@
 +++
 title = "Jimmy Chen's Home Page"
+isarticle = false
 +++
 <!-- @def tags = ["syntax", "code"] -->
 
@@ -7,7 +8,7 @@ title = "Jimmy Chen's Home Page"
 
 **Currently I am:**
 @@hanging
-Working on Furnace@Home™ V5 (coming soon); \br
+Working on [Furnace@Home™ V5](/stuff/furnace); \br
 Doing research on progressive geometry processing with [Eris Zhang](https://eriszhang.github.io) in [Doug James](https://graphics.stanford.edu/~djames/)' group; \br
 @@
 

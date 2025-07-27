@@ -1,6 +1,7 @@
 +++
 title = "Other Stuff"
 hascode = false
+isarticle = false
 +++
 
 # {{title}}
@@ -8,3 +9,7 @@ hascode = false
 \hyperheader{h2}{stuff/cellular-automata}
 
 {{preview stuff/cellular-automata}}
+
+\hyperheader{h2}{stuff/furnace}
+
+{{preview stuff/furnace}}

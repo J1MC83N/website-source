@@ -2,7 +2,7 @@
 title = "Cellular Automata"
 preview_paths = """
     /assets/CA/spiral.gif
-    /assets/CA/propagation.gif
+    /assets/CA/osc.gif
     /assets/CA/fractal-fungi.gif
 """
 +++

@@ -38,26 +38,39 @@ function hfun_tothumbnail(params)
     return "<a href=\"$imgpath\"> <img src=\"$(_tothumbnail(imgpath,pixelcount))\" style=\"max-width:$imgscale; cursor:pointer;\" title=\"Click to see original\"> </a>"
 end
 
-function _tothumbnail(imgpathfull::AbstractString, pixelcount::Int=1000^2)
+function _tothumbnail(imgpathfull::AbstractString, pixelcount::Int=1000^2; postfix="thumbnail")
     @assert startswith(imgpathfull, "/assets/")
-    path_name,ext = match(r"^/assets/(.*)\.(.{3,4})$",imgpathfull).captures
-    path_img = "$path_name.$ext"
-    @assert isfile("_assets/$path_img")
-    path_thumb = "$path_name-thumbnail.$ext"
-    if !isfile("_assets/$path_thumb")
-        imgsize = Base.format_bytes(filesize("_assets/$path_name.$ext"))
-        dims = imgdims("_assets/$path_name.$ext")
-        @info "Gernerating thumbnail for image: $path_img ($imgsize)"
+    path,name,ext = match(r"^/assets/(.*/)?([a-zA-Z0-9_\-]+)\.(.{3,4})$",imgpathfull).captures
+    path = something(path, "")
+    path_img = "$path$name.$ext"
+    @assert isfile(joinpath("_assets", path_img))
+    _pwd = pwd(); cd("_assets/$path")
+    filename = "$name.$ext"
+    thumbfilename = "$name-$postfix.$ext"
+    returnpath = ""
+    if !(isfile(thumbfilename) || islink(thumbfilename))
+        imgsize = filesize(filename)
+        dims = imgdims(filename)
+        @info "Gernerating thumbnail for image: $path_img ($(Base.format_bytes(imgsize)))"
         gmproc = *(dims...) > pixelcount*5^2 ? "thumbnail" : "resize"
-        run(`$GM convert _assets/$path_img -filter lanczos -$gmproc $pixelcount@\> _assets/$path_thumb`)
+        run(`$GM convert $filename -filter lanczos -$gmproc $pixelcount@\> $thumbfilename`)
+        thumbsize = filesize(thumbfilename)
+        if thumbsize > imgsize
+            rm(thumbfilename)
+            @show path, filename, thumbfilename
+            symlink(filename, thumbfilename)
+            returnpath = imgpathfull
+        end
     end
-    return "/assets/$path_thumb"
+    returnpath = "/assets/$path$thumbfilename"
+    cd(_pwd)
+    return returnpath
 end
 
 function hfun_preview(params)
     rpath = params[1]
     preview_paths = split(Franklin.pagevar(rpath,"preview_paths"))
-
+    @show preview_paths
     n = min(3, length(preview_paths))
     cols = ""
     for i in 1:4
@@ -75,7 +88,7 @@ function hfun_preview(params)
             """
             <div class="imgcol">
                 <a href="/$rpath">
-                    <img src="$(preview_paths[i])" />
+                    <img src="$(_tothumbnail(preview_paths[i], 400^2; postfix="preview"))" />
                 </a>
             </div>
             """

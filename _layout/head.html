@@ -13,6 +13,20 @@
   {{if hascode}} {{insert head_highlight.html }}   {{end}}
   {{insert style.html}}
   {{isdef title}} <title>{{fill title}}</title>  {{end}}
+  <style>
+    @media (min-width: 1024px) {
+      .franklin-content {
+        width: 75%;
+        {{if isarticle}}
+        padding-left: 8%;
+        padding-right: 8%;
+        {{else}}
+        padding-left: 20%;
+        padding-right: 5%;
+        {{end}}
+      }
+    }
+  </style>
   <!-- end custom head snippets -->
 </head>
 {{insert body_layout.html}}
