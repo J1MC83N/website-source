@@ -1,9 +1,9 @@
 using Franklin
 serve(launch=true)
 optimize(prepath="",minify=false)
-`rsync -r __site/ ../J1MC83N.github.io` |> run
+`rsync -av --delete --exclude=".git/" __site/ ../J1MC83N.github.io/` |> run
 cd("../J1MC83N.github.io")
 `git add --all` |> run
-`git commit -m "cleaned up repo"` |> run
+`git commit -m "word-hyphenations; changed random-words layout"` |> run
 `git push` |> run
-cd("../main")
+cd("../main-minimal-mistakes")

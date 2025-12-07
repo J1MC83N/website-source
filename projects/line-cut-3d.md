@@ -57,3 +57,7 @@ The first is rendered with with [Adobe Dimension](https://www.adobe.com/products
 \center{ {{tothumbnail /assets/line-cut-3d/3D-2.jpg 70%}} }
 \\
 \center{ {{tothumbnail /assets/line-cut-3d/3D-3.png 70%}} }
+
+
+
+{{ addcomments }}

@@ -184,3 +184,8 @@ b2o$60bobo$59bobo$59b2obo4$68bo3bo$67bobobobo$66bob2obobo$67b3o$71bo$
 \sizedimg{70%}{/assets/CA/zoom.gif}
 \\
 \sizedimg{70%}{/assets/CA/zoom.png}
+
+
+
+
+{{ addcomments }}

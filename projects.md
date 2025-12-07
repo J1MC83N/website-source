@@ -1,5 +1,5 @@
 +++
-title = "Coding Projects"
+title = "Coding projects"
 hascode = false
 isarticle = false
 +++

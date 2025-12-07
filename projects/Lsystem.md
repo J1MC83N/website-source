@@ -46,3 +46,8 @@ Many examples below are taken from [a great collection](/assets/Lsystem/VoC-exam
 \caption{"Flower02" (L-system by Ole Jorgensen, listed in "OF-FIBONA")}
 \\
 
+
+
+
+
+{{ addcomments }}

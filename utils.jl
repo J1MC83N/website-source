@@ -21,7 +21,7 @@ end
 function execute(cmd::Cmd)
     out = Pipe()
     err = Pipe()
-  
+
     process = run(pipeline(ignorestatus(cmd), stdout=out, stderr=err))
     close(out.in)
     close(err.in)
@@ -95,4 +95,24 @@ function hfun_preview(params)
         end
     end
     return """<div class="imgrow">$cols</div>"""
+end
+
+
+"""
+    {{ addcomments }}
+
+Add a comment widget, managed by utterances <https://utteranc.es>.
+"""
+function hfun_addcomments()
+    html_str = """
+        <hr>
+        <script src="https://utteranc.es/client.js"
+            repo="J1MC83N/J1MC83N.github.io"
+            issue-term="pathname"
+            theme="github-light"
+            crossorigin="anonymous"
+            async>
+        </script>
+    """
+    return html_str
 end

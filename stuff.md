@@ -1,5 +1,5 @@
 +++
-title = "Other Stuff"
+title = "Other things I'm into"
 hascode = false
 isarticle = false
 +++

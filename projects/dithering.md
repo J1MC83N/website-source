@@ -2,8 +2,8 @@
 title = "Dithering"
 preview_paths = """
     /assets/dithering/lamp-thumbnail.png
-    /assets/dithering/shore1-thumbnail.png
     /assets/dithering/spark-trail-thumbnail.png
+    /assets/dithering/shore1-thumbnail.png
 """
 +++
 
@@ -63,3 +63,7 @@ You can see these for yourself in the demo below; the ~~~<span style="color:#398
 ~~~
 
 It turns out that I'm not the first to discover this curve. AFAIK the only other mention of it is this [Medium article](https://medium.com/@mcreynolds02/a-new-family-of-easing-functions-391821670a60), also introducing the curve's discovery. Notably, the article starts from desired properties and actually derives the curve's formula by solving differential equations. Given that it is such an informative article, I recommand checking it out for further information.
+
+
+
+{{ addcomments }}
