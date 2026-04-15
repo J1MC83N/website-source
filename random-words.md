@@ -20,14 +20,19 @@ Usually my audience defines my writing. Here is the only place where my writing 
 
 > Don't set yourself on fire trying to keep other people warm. \br–– Penny Reid
 
+> 那还真是健全的烦恼呢。(What a healthy kind of worry.) \br-- Sakuta Azusagawa
+
+> 我们每个阶段对理论的认识都有它存在的价值。(Every stage of theoretical understanding has inherent value.) \br-- [骨哥说](https://space.bilibili.com/1512455827)
+
+\hyperheader{h2}{random-words/hobbies}
+
+4.15.2026
+
+At some point I thought to myself, "I have a bunch of hobbies, maybe I should list them out somewhere"...
+
+
 \hyperheader{h2}{random-words/hyphenation}
 
 12.1.2025
 
 I've never connected-resonated more with a four-eyed mechanical bug...
-
-\hyperheader{h2}{random-words/hobbies}
-
-12.21.2025
-
-At some point I thought to myself, "I have a bunch of hobbies, maybe I should list them out somewhere"...

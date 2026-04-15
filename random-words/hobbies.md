@@ -9,46 +9,54 @@ isarticle = true
 
 A list of all my hobbies, sorted by last engagement time at the time of writing.
 
-**Piano:** today, learning Brahms' Op. 118 No. 2 (and also piano tuning)
+**Program optimization:** today, optimized research-related code, currently obsessed
 
-[**Rule-golfing**](/stuff/cellular-automata)**:** today, currently obsessed
+**Piano:** yesterday, improvization on themes of Silksong
 
-**Wave dodging:** yesterday, where I walk on a beach and stay as close as possible to the water without getting wet
+**Anime:** yesterday, The Ancient Magus' Bride
 
-**Anime:** 2 days ago, Seishun Buta Yarou S2
+**Orchestral timpani:** yesterday, with Stanford Philharmonia, Beethoven's Piano Concerto No. 3 and Mandelssohn's Symphony No. 4
 
-**Ping pong:** 3 days ago, with my dad
+**Memes:** yesterday, trans memes and anime_irl
 
-**Reading:** 4 days ago, *Johannes Brahms* by Jan Swafford
+**Other sports:** 2 days ago, badminton with friends
 
- 
+**Classical music listening:** 2 days ago, Brahms' Piano Concerto No. 1
 
-**Classical music listening:** 5 days ago, Sibelius 6
+**Cooking:** 4 days ago, gyudon
 
-**Other sports:** 2 weeks ago, first time pickleball with a friend
+**Converse with LLMs:** 6 days ago with DeepSeek, on expression, growth, metaphors, meta-cognition, desires, vulnerability, and loneliness
 
-**Card throwing:** last thrown 3 weeks ago, last practiced 5 years ago
+**Drawing on myself:** 1 week ago, impossible triangle with Bic BodyMark
 
-**Cooking:** a month ago, one-person hotpot
+**Card throwing:** last thrown 1 week ago, last practiced 5 years ago
 
-**Function curve designing:** 2 months ago, research-related distortion energy design
+**Other photography:** 1 month ago, Roaring Camp Redwood Forest
 
-**Bird photography:** 3 months ago, Point Reyes with Stanford Birdwatching Club 
+**Research-style shopping:** 1 month ago, Hifiman Ananda
 
-**Other photography:** 4 months ago, banana slug hunting
+**Ping pong:** 1 month ago, overtaken by badminton
 
-**Research-style shopping:** 4 months ago, standing desk
+**Bird photography:** 2 months ago, Lake Lagunita with Stanford Birdwatching Club
 
-**Generative art**: 5 months ago, used my [dithering algorithm](/projects/dithering) to generate the homepage profile picture
+**Reading:** 2 months ago, *Johannes Brahms* by Jan Swafford
 
-**Metal casting:** 5 months ago, casted a beer opener and a name seal using the new [induction furnace V5](/stuff/furnace)
+**Clothes shopping:** 3 months ago, Uniqlo and MUJI
 
-**Other DIY project:** 6 months ago, made induction furnace V5
+[**Rule-golfing**](/stuff/cellular-automata)**:** 4 months ago
 
-**Origami:** 6 months ago, recreated Michał Kosmulski's [Rosette](https://origami.kosmulski.org/models/rosette)
+**Wave dodging:** 4 months ago, where I walk on a beach and stay as close as possible to the water without getting wet
 
-**Orchestral timpani:** 7 months ago, in Stanford Philharmonia, Haydn 82 and Beethoven 2
+**Function curve designing:** 6 months ago, research-related distortion energy design
 
-**Other coding projects:** 1.3 years ago, trained a variational autoencoder on a dataset of ~1k selfies of a high school friend, who got ahold of my phone and took them as a prank
+**Generative art**: 9 months ago, used my [dithering algorithm](/projects/dithering) to generate the homepage profile picture
+
+**Metal casting:** 9 months ago, casted a beer opener and a name seal using the new [induction furnace V5](/stuff/furnace)
+
+**Other DIY project:** 10 months ago, made induction furnace V5
+
+**Origami:** 10 months ago, recreated Michał Kosmulski's [Rosette](https://origami.kosmulski.org/models/rosette)
+
+**Other coding projects:** 1.5 years ago, trained a variational autoencoder on a dataset of ~1k selfies of a high school friend, who got ahold of my phone and took them as a prank
 
 {{ addcomments }}
