@@ -27,6 +27,7 @@ Add here global latex commands to use throughout your pages.
 
 \newcommand{\hyper}[2]{~~~<a href="/!#2">!#1</a>~~~}
 \newcommand{\hyperheader}[2]{\hyper{<!#1>{{fill title !#2.md}}</!#1>}{!#2}}
+\newcommand{\hyperpreheader}[3]{\hyper{<!#1>!#2 {{fill title !#3.md}}</!#1>}{!#3}}
 
 \newcommand{\center}[1]{@@container ~~~<center>!#1~~~ @@}
 \newcommand{\caption}[1]{ \style{color:grey; font-size:smaller}{\center{!#1}} }

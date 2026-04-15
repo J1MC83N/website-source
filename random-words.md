@@ -7,6 +7,8 @@ isarticle = false
 
 # {{title}}
 
+Usually my audience defines my writing. Here is the only place where my writing defines my audience. 
+
 
 ## My favorite quotes at the moment
 
@@ -20,4 +22,12 @@ isarticle = false
 
 \hyperheader{h2}{random-words/hyphenation}
 
-I've never connected-resonated more with a four-eyed mechanical bug.
+12.1.2025
+
+I've never connected-resonated more with a four-eyed mechanical bug...
+
+\hyperheader{h2}{random-words/hobbies}
+
+12.21.2025
+
+At some point I thought to myself, "I have a bunch of hobbies, maybe I should list them out somewhere"...
