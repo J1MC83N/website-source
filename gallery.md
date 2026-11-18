@@ -8,6 +8,10 @@ isarticle = false
 
 Too lazy to explain these in detail. 
 
+\hyperheader{h2}{gallery/night-leaves}
+
+{{preview gallery/night-leaves}}
+
 \hyperheader{h2}{gallery/metal-flame}
 
 {{preview gallery/metal-flame}}

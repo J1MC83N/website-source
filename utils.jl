@@ -1,4 +1,4 @@
-const GM = "/usr/local/bin//gm"
+const GM = "/opt/homebrew/bin/gm"
 
 function hfun_bar(vname)
     val = Meta.parse(vname[1])
